@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #1F2937; 
+    height: 60px;
+    padding: 5px;
+}
+
+.right-header{
+    display: flex;
+    gap: 15px;
+    margin-right: 150px;
+}
+
+.left-header{
+    margin-left: 100px;
+    font-size: 35px;
+}
+a{
+    color: #E5E7EB;
+    text-decoration: none;
+}
