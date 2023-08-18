@@ -54,3 +54,15 @@ a{
     font-size: 18px;
     margin-top: -20px;
 }
+
+
+.block{
+    display: block;
+    cursor: pointer;
+    font-size: large;
+    transition: 0.2s all;
+}
+
+.block:active{
+    transform: scale(1.5);
+}
