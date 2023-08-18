@@ -11,6 +11,7 @@ body{
     background-color: #1F2937; 
     height: 60px;
     padding: 5px;
+    
 }
 
 .right-header{
@@ -20,10 +21,36 @@ body{
 }
 
 .left-header{
+    display: flex;
     margin-left: 100px;
     font-size: 35px;
 }
 a{
     color: #E5E7EB;
     text-decoration: none;
+}
+
+.info-container{
+    border: solid lightblue;
+    display: flex;
+    color: #f9faf8;
+    background-color: #1F2937;
+    height: 400px;
+    align-items: center;
+}
+
+.info-box{
+    overflow-wrap: break-word;
+    max-width: 500px;
+    border: solid;
+    margin-left: 100px;
+}
+
+.info h2{
+    font-size: 48px;
+}
+
+.info p{
+    font-size: 18px;
+    margin-top: -20px;
 }
