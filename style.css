@@ -78,3 +78,17 @@ a{
     height: 100%;
     width: 100%;
 }
+
+.project-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid;
+    height: 500px;
+}
+
+.project-header{
+    display: flex;
+    border: solid;
+    height: fit-content;
+}
