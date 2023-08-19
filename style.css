@@ -35,8 +35,9 @@ a{
     display: flex;
     color: #f9faf8;
     background-color: #1F2937;
-    height: 400px;
+    height: 600px;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .info-box{
@@ -52,7 +53,7 @@ a{
 
 .info p{
     font-size: 18px;
-    margin-top: -20px;
+    margin-top: -25px;
 }
 
 
@@ -65,4 +66,15 @@ a{
 
 .block:active{
     transform: scale(1.5);
+}
+
+.img-container{
+    border: solid white;
+    height: 400px;
+    width: 300px;
+}
+
+.img-container img{
+    height: 100%;
+    width: 100%;
 }
