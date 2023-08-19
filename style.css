@@ -79,16 +79,21 @@ a{
     width: 100%;
 }
 
-.project-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.project-section{
+    background-color: lightblue;
+    height: 600px;
     border: solid;
-    height: 500px;
 }
 
-.project-header{
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.project-container{
     display: flex;
-    border: solid;
-    height: fit-content;
+    justify-content: center;
+    border: solid green;
+    height: 555px
 }
