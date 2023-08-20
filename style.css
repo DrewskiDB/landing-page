@@ -120,18 +120,19 @@ a{
 
 .quote-section{
     background-color: bisque;
-    border: solid;
 }
 
 .quote-header h1{
+    margin: 0;
     text-align: center;
-    padding: 10px;
+    padding-top: 15px;
 }
 
 .quote-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
 }
 
 .quote{
@@ -143,4 +144,40 @@ a{
 .quote p{
     text-align: end;
     margin-top: 10px;
+}
+
+.contact-section{
+    background-color: lightblue;
+}
+
+.contact-header{
+    margin: 0;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contact-container{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.contact-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.contact-info a {
+    color: black
+}
+
+.contact-info a:hover {
+    color: darkblue;
+    font-weight: bolder;
+ 
 }
