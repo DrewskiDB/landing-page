@@ -181,3 +181,12 @@ a{
     font-weight: bolder;
  
 }
+
+footer p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+}
