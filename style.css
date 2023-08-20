@@ -31,7 +31,6 @@ a{
 }
 
 .info-container{
-    border: solid lightblue;
     display: flex;
     color: #f9faf8;
     background-color: #1F2937;
@@ -81,7 +80,6 @@ a{
 
 .project-section{
     background-color: lightblue;
-    border: solid;
 }
 
 .title {
@@ -102,7 +100,6 @@ a{
 }
 
 .projects{
-    border: solid;
     width: 200px;
     height: 200px;
     margin-top: 50px;
