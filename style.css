@@ -42,7 +42,6 @@ a{
 .info-box{
     overflow-wrap: break-word;
     max-width: 500px;
-    border: solid;
     margin-left: 100px;
 }
 
@@ -68,7 +67,6 @@ a{
 }
 
 .img-container{
-    border: solid white;
     height: 400px;
     width: 300px;
 }
